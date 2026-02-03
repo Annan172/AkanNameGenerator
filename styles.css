@@ -31,7 +31,8 @@ h1 {
 }
 h2{
     font-size: 40px;  
-    text-align: center;  
+    text-align: center;
+    color: silver;
 }
 p {
     text-align: center;
