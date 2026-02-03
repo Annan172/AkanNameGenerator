@@ -1,5 +1,5 @@
 body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     background-image: url(images/background.png);
     color: #000;
     margin: 100px;
@@ -9,12 +9,12 @@ body {
     background-position: center;     
 }
 .container {
-    max-width: 500px;
-    margin: 50px auto;
+    max-width: 500 px;
+    margin: 50 px auto;
     background:#f4f6f8;
-    padding: 25px;
-    border-radius: 17px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 25 px;
+    border-radius: 17 px;
+    box-shadow: 0 4 px 10 px  rgba(0, 0, 0, 0.1);
 }
 h1 {
     text-align: center;
@@ -85,7 +85,7 @@ h3{
     margin-top: 25px;
     text-align: center;
     color: white;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 #akan-name {
