@@ -45,6 +45,7 @@ Given the user does not enter a date of birth or select a gender
 When the user submits the form
 Then the application displays an error message
 And no Akan name is generated
+
 ---
 
 ## Author
