@@ -28,4 +28,5 @@ https://Annan172.github.io/AkanNameGenerator/
 
 ---
 
-## 📂 Project Structure
+## Author
+Annan Rapando
