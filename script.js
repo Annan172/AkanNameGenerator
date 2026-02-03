@@ -17,13 +17,12 @@ document.getElementById("AkanForm").addEventListener("submit", function (e) {
     const date = new Date(birthdate);
 
     const DD = date.getDate();
-    const MM = date.getMonth() + 1; // JS months are 0–11
+    const MM = date.getMonth() + 1; 
     const year = date.getFullYear();
 
     const CC = Math.floor(year / 100);
     const YY = year % 100;
 
-    // Day-of-week formula
     const d = Math.floor(
         (
             (4 * CC - 2 * CC - 1) +
