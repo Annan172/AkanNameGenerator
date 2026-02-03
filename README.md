@@ -27,8 +27,8 @@ https://Annan172.github.io/AkanNameGenerator/
 - **Git & GitHub** – Version control  
 - **GitHub Pages** – Project deployment  
 
-## Behavior-Driven Development (BDD)
-# Feature: Generate Akan Name
+# Behavior-Driven Development (BDD)
+## Feature: Generate Akan Name
 
 As a user, I want to enter my birth date and gender so that I can receive my Akan name.
 
