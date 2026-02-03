@@ -26,6 +26,25 @@ https://Annan172.github.io/AkanNameGenerator/
 - **Git & GitHub** – Version control  
 - **GitHub Pages** – Project deployment  
 
+## Behavior-Driven Development (BDD)
+# Feature: Generate Akan Name
+
+As a user, I want to enter my birth date and gender so that I can receive my Akan name.
+
+Scenario 1: Valid input
+
+Given the user enters a valid date of birth
+And selects a gender
+When the user submits the form
+Then the application calculates the correct day of the week
+And displays the corresponding Akan name
+
+Scenario 2: Missing input
+
+Given the user does not enter a date of birth or select a gender
+When the user submits the form
+Then the application displays an error message
+And no Akan name is generated
 ---
 
 ## Author
