@@ -5,33 +5,37 @@ document.getElementById("AkanForm").addEventListener("submit", function (e) {
     const gender = document.querySelector('input[name="gender"]:checked');
 
     if (!birthdate) {
-        alert("Please select a birthdate!!");
+        alert("Please select a birthdate!");
         return;
     }
 
     if (!gender) {
-        alert("Please select a gender!!");
+        alert("Please select a gender!");
         return;
     }
 
     const date = new Date(birthdate);
+
     const DD = date.getDate();
-    const MM = date.getMonth() + 1;
+    const MM = date.getMonth() + 1; // JS months are 0–11
     const year = date.getFullYear();
 
     const CC = Math.floor(year / 100);
     const YY = year % 100;
 
+    // Day-of-week formula
     const d = Math.floor(
-        ((4 * CC - 2 * CC - 1) +
-        (45 * YY) +
-        (1026 * (MM + 1)) / 10 +
-        DD) % 7
+        (
+            (4 * CC - 2 * CC - 1) +
+            (45 * YY) +
+            (1026 * (MM + 1)) / 10 +
+            DD
+        ) % 7
     );
 
+    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
     const maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
     const femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
-    const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
     const akanName =
         gender.value === "male" ? maleNames[d] : femaleNames[d];
