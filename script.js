@@ -1,3 +1,5 @@
+console.log("JS is connected");
+
 document.getElementById("AkanForm").addEventListener("submit", function (e) {
     e.preventDefault();
 
