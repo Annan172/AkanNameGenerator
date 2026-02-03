@@ -47,6 +47,10 @@ When the user submits the form
 Then the application displays an error message
 And no Akan name is generated
 
+#Contact Information
+Email: everettannan@gmail.com
+Github: Annan172
+
 ---
 
 ## Copyright
