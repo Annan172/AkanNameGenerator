@@ -4,7 +4,8 @@ The Akan Name Generator is a simple web-based application that generates a tradi
 
 ---
 
-## 🌍 Live Site
+## 🌍 Live Site/ Setup Instructions
+Run the deployed  site on Github pages
 https://Annan172.github.io/AkanNameGenerator/
 
 ---
@@ -48,5 +49,5 @@ And no Akan name is generated
 
 ---
 
-## Author
-Annan Rapando
+## Copyright
+Annan Rapando (c) 2026
