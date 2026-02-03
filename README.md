@@ -48,8 +48,8 @@ Then the application displays an error message
 And no Akan name is generated
 
 # Contact Information
-Email: everettannan@gmail.com
-Github: Annan172
+- Email: everettannan@gmail.com
+- Github: Annan172
 
 ---
 
