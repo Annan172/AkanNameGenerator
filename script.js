@@ -1,4 +1,4 @@
-console.log("JS is connected");
+console.log("JS is connected"); // This is just to chevk wherther the JS code is connected correctly
 
 document.getElementById("AkanForm").addEventListener("submit", function (e) {
     e.preventDefault();
@@ -7,12 +7,12 @@ document.getElementById("AkanForm").addEventListener("submit", function (e) {
     const gender = document.querySelector('input[name="gender"]:checked');
 
     if (!birthdate) {
-        alert("Please select a birthdate!");
+        alert("Please select a birthdate!!!");
         return;
     }
 
     if (!gender) {
-        alert("Please select a gender!");
+        alert('Please select a gender!!!');
         return;
     }
 
@@ -25,7 +25,6 @@ document.getElementById("AkanForm").addEventListener("submit", function (e) {
     const CC = Math.floor(year / 100);
     const YY = year % 100;
 
-    // Apply formula
     let d = (
         (4 * CC - 2 * CC - 1) +
         (45 * YY) +
@@ -34,8 +33,6 @@ document.getElementById("AkanForm").addEventListener("submit", function (e) {
     );
 
     d = Math.floor(d % 7);
-
-    // Normalize for JS modulo
     if (d < 0) d += 7;
 
     const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
